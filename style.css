@@ -23,6 +23,7 @@ body {
 .overlay h1 {
   font-size: 2.5em;
   margin-bottom: 0.3em;
+  color: #ff5722
 }
 .overlay p {
   font-size: 1.2em;
@@ -77,4 +78,35 @@ footer {
   color: white;
   text-align: center;
   padding: 1em;
+}
+.appointment {
+  padding: 2em;
+  background: #f2faff;
+  text-align: center;
+}
+.appointment form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.appointment input,
+.appointment textarea {
+  padding: 0.8em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.appointment button {
+  padding: 0.8em;
+  font-size: 1em;
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.appointment button:hover {
+  background-color: #0369a1;
 }
